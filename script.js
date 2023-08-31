@@ -17,7 +17,7 @@ function klik() {
 }
 
 function momsBeregner(beloeb, moms) {
-  const result = beloeb + (beloeb * moms) / 100;
+  const result = beloeb + (beloeb / 100) * moms;
 
   return result;
 }
